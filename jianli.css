@@ -1,0 +1,87 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+#content{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+.left{
+    width: 200px;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(31,73,125,1);
+}
+.right{
+    width: 600px;
+    height: 100%;
+    background-color: #fff;
+}
+.right_layout{
+    margin: 20px;
+}
+/* 头像图片描述 */
+.image{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+.image .image-content {
+    width: 100px;
+    height: 125px;
+    margin-top: 50px;
+    /* background-color: #fff; */
+    background-image:url(./1.jpg);
+    background-size:  100px;
+   
+}
+
+
+/*专业技能描述 */
+.professional{
+    margin: 0 auto;
+    width: 125px;
+    height: 30px;
+    background-color: #fff;
+}
+.professional > p{
+    color: deepskyblue;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+/* right区域  info */
+.info{
+    width: 100%;
+    
+}
+.right_info{
+    display: inline-block;
+}
+.left_info{
+    display: inline-block;
+}
+
+/* title_info */
+.title_info{
+    width: 125px;
+    height: 30px;
+    background-color:rgba(84,141,212,1) ;
+}
+.title_info > p{
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+/* title_info_content */
+.title_info_content{
+    word-spacing: 20px;
+    margin: 10px 0 ;
+    color: rgba(84,141,212,1);
+}
